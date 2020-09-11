@@ -1,0 +1,25 @@
+.whiteFont {
+  color: #fff;
+}
+.blackFont {
+  color: #000;
+}
+p,
+label,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+div,
+a {
+  font-family: Georgia, "Times New Roman", Times, serif !important;
+}
+.noMarginBottom {
+  margin-bottom: 0;
+}
+.myContainer {
+  width: 1440px;
+  max-width: 100%;
+}
