@@ -7,7 +7,11 @@ const Login = () => {
     <div className={classes.loginMainContainer}>
       <div className="d-flex">
         <div
-          className={`d-flex justify-content-end ${classes.loginLeftContainer}`}
+          className={[
+            `d-flex`,
+            `justify-content-end`,
+            classes.loginLeftContainer,
+          ].join(" ")}
         >
           <h1 className="whiteFont mt-3 mr-3">Login</h1>
         </div>
