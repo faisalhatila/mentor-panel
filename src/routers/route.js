@@ -10,7 +10,7 @@ const Route = (props) => {
     <React.Fragment>
       {!withoutHeaderAndFooter && <Header />}
       <ReactRouter {...props} />
-      {!withoutHeaderAndFooter && <Footer />}
+      {withoutHeaderAndFooter && <Footer />}
     </React.Fragment>
   );
   if (props.withoutLayout) return schema;

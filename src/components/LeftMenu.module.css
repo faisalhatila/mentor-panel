@@ -1,0 +1,11 @@
+.leftMenuMainDiv {
+  min-height: 100vh;
+  border-top-right-radius: 6em;
+}
+.leftMenuMainDiv {
+  background-color: #e8e8e8;
+}
+.leftSpan {
+  background-color: #363090;
+  width: 10px;
+}
