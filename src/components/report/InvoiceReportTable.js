@@ -1,46 +1,46 @@
 import React from "react";
-import classes from "./Invoices.module.css";
-const Invoices = () => {
+import classes from "./InvoiceReportTable.module.css";
+const InvoiceReportTable = () => {
   return (
     <div>
       <h4 style={{ fontSize: "16px" }} className="whiteBack p-3">
         Invoices
       </h4>
-      <table className={classes.UpComingWebinarsTable}>
+      <table className={classes.invoiceReportTable}>
         <thead>
           <tr className="">
             <td
-              style={{ fontSize: "11px", minWidth: "180px" }}
+              style={{ fontSize: "11px", minWidth: "150px" }}
               className="pt-2 pb-3"
             >
-              Invoices
+              Invoice
             </td>
             <td
-              style={{ fontSize: "11px", minWidth: "180px" }}
+              style={{ fontSize: "11px", minWidth: "150px" }}
               className="pt-2 pb-3"
             >
               ID
             </td>
             <td
-              style={{ fontSize: "11px", minWidth: "180px" }}
+              style={{ fontSize: "11px", minWidth: "150px" }}
               className="pt-2 pb-3"
             >
               Mentee
             </td>
             <td
-              style={{ fontSize: "11px", minWidth: "180px" }}
+              style={{ fontSize: "11px", minWidth: "150px" }}
               className="pt-2 pb-3"
             >
               Amount
             </td>
             <td
-              style={{ fontSize: "11px", minWidth: "180px" }}
+              style={{ fontSize: "11px", minWidth: "150px" }}
               className="pt-2 pb-3"
             >
               Status
             </td>
             <td
-              style={{ fontSize: "11px", minWidth: "180px" }}
+              style={{ fontSize: "11px", minWidth: "150px" }}
               className="pt-2 pb-3"
             >
               Action
@@ -52,10 +52,12 @@ const Invoices = () => {
             return (
               <tr
                 style={{ height: "50px" }}
-                className={[`whiteBack`, classes.invoicesTableRow].join(" ")}
+                className={[`whiteBack`, classes.invoiceReportTableRow].join(
+                  " "
+                )}
               >
                 <td style={{ fontSize: "12px" }} className="mr-5">
-                  INVoo1
+                  INV001
                 </td>
                 <td style={{ fontSize: "12px" }} className="mr-5">
                   #01
@@ -78,7 +80,7 @@ const Invoices = () => {
                   <i
                     class={[`fas`, `fa-check`, classes.checkMark].join(" ")}
                   ></i>
-                </td>
+                </td>{" "}
                 <td style={{ fontSize: "12px", flex: 3 }}>
                   <div className="d-flex justify-content-between">
                     <label
@@ -89,7 +91,7 @@ const Invoices = () => {
                         classes.tableRescheduleButton,
                       ].join(" ")}
                     >
-                      Print
+                      Re-Schedule
                     </label>
                     <label
                       className={[
@@ -98,7 +100,7 @@ const Invoices = () => {
                         classes.tableCancelButton,
                       ].join(" ")}
                     >
-                      Delete
+                      Cancel
                     </label>
                   </div>
                 </td>
@@ -111,4 +113,4 @@ const Invoices = () => {
   );
 };
 
-export default Invoices;
+export default InvoiceReportTable;

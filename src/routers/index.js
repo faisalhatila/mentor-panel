@@ -5,6 +5,10 @@ import PageNotFound from "../containers/404";
 import Route from "./route";
 import PvtRoute from "./privateRoute";
 import LoginContainer from "../containers/Login";
+import Profile from "../containers/Profile";
+import MenteesList from "../containers/MenteesList";
+import Services from "../containers/Services";
+import Report from "../containers/Report";
 // import LoginForm from "../containers/LoginForm";
 // import SignUpForm from "../containers/SignUpForm";
 // import { AboutUs } from "../containers/AboutUs";
@@ -18,6 +22,10 @@ const Router = (props) => {
   return (
     <Switch>
       <Route exact path="/" component={HomeContainer} />
+      <Route exact path="/profile" component={Profile} />
+      <Route exact path="/mentees-list" component={MenteesList} />
+      <Route exact path="/services" component={Services} />
+      <Route exact path="/report" component={Report} />
       {/* <Route exact path="/about-us" component={AboutUs} />
       <Route exact path="/our-services" component={OurServices} />
       <Route exact path="/our-crew" component={OurCrew} />

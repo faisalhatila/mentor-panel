@@ -11,6 +11,7 @@ const TopCard = (props) => {
           //   `col-md-4`,
           `justify-content-between`,
           `align-items-center`,
+          `whiteBack`,
           classes.dashboardTopCardMainDiv,
         ].join(" ")}
       >

@@ -1,6 +1,9 @@
 .whiteFont {
   color: #fff;
 }
+.whiteBack {
+  background-color: #fff;
+}
 .blackFont {
   color: #000;
 }
@@ -20,6 +23,14 @@ a {
   margin-bottom: 0;
 }
 .myContainer {
-  width: 1440px;
-  max-width: 100%;
+  max-width: 1440px;
+  width: 100%;
+}
+.contentContainer {
+  max-width: 1600px;
+  width: 100%;
+}
+.contentBack {
+  background-color: #f7f6ff;
+  border-radius: 15px;
 }

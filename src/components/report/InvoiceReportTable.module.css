@@ -1,4 +1,4 @@
-.UpComingWebinarsTable {
+.invoiceReportTable {
   min-width: 100%;
 }
 .tableRescheduleButton {
@@ -15,10 +15,10 @@
   border-radius: 3px;
   min-width: 100px;
 }
-.invoicesTableRow {
+.invoiceReportTableRow {
   border-bottom: solid 1px #ccc;
 }
-.invoicesTableRow:hover {
+.invoiceReportTableRow:hover {
   background-color: #f9e6e6;
 }
 .checkMark {

@@ -1,4 +1,4 @@
-.UpComingWebinarsTable {
+.servicesTable {
   min-width: 100%;
 }
 .tableRescheduleButton {
@@ -15,15 +15,15 @@
   border-radius: 3px;
   min-width: 100px;
 }
-.invoicesTableRow {
+.servicessTableRow {
   border-bottom: solid 1px #ccc;
 }
-.invoicesTableRow:hover {
+.servicessTableRow:hover {
   background-color: #f9e6e6;
 }
-.checkMark {
+.servicesScheduleButton {
+  background-color: #888;
   color: #fff;
-  padding: 6px 5px;
-  border-radius: 50%;
-  background-color: #363090;
+  padding: 2px 5px;
+  border-radius: 5px;
 }

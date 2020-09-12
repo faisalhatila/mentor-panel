@@ -1,19 +1,17 @@
-import React, { useState } from "react";
-import { Link } from "react-router-dom";
-import { head } from "lodash";
-import LeftMenu from "../components/LeftMenu";
+import React from "react";
+import Invoices from "../components/dashboard/Invoices";
 import TopCard from "../components/dashboard/TopCard";
 import UpComingWebinars from "../components/dashboard/UpComingWebinars";
-import Invoices from "../components/dashboard/Invoices";
+import LeftMenu from "../components/LeftMenu";
 
-const HomeContainer = () => {
+const Profile = (props) => {
   return (
-    <div className="home-container row contentContainer">
+    <div className="profile-container row contentContainer">
       <div className="col" style={{ flex: 1 }}>
         <LeftMenu />
       </div>
       <div className="col" style={{ flex: 3 }}>
-        <div className="mt-5 pr-4 pl-4 pb-4 contentBack pt-3">
+        <div className="mt-5">
           <h3 className="noMarginBottom">Welcome Mentor</h3>
           <h3 className="noMarginBottom">Dashboard</h3>
           <div className="row justify-content-between mt-4">
@@ -33,4 +31,4 @@ const HomeContainer = () => {
   );
 };
 
-export default HomeContainer;
+export default Profile;

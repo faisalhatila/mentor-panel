@@ -1,13 +1,15 @@
 import React from "react";
-import classes from "./UpComingWebinars.module.css";
+import MenteesFilter from "./MenteesFilter";
+import classes from "./MenteesTable.module.css";
 
-const UpComingWebinars = () => {
+const MenteesTable = () => {
   return (
     <div>
-      <h4 style={{ fontSize: "16px" }} className="whiteBack p-3">
-        Upcoming Webinars
+      <MenteesFilter />
+      <h4 style={{ fontSize: "16px" }} className="whiteBack p-3 mt-3">
+        My Mentees
       </h4>
-      <table className={classes.UpComingWebinarsTable}>
+      <table className={classes.menteesListTable}>
         <thead>
           <tr className="">
             <td
@@ -32,19 +34,13 @@ const UpComingWebinars = () => {
               style={{ fontSize: "11px", minWidth: "150px" }}
               className="pt-2 pb-3"
             >
-              Amount
+              Spent
             </td>
             <td
               style={{ fontSize: "11px", minWidth: "150px" }}
               className="pt-2 pb-3"
             >
-              Time Frame
-            </td>
-            <td
-              style={{ fontSize: "11px", minWidth: "150px" }}
-              className="pt-2 pb-3"
-            >
-              Zoom
+              Member Since
             </td>
             <td
               style={{ fontSize: "11px", minWidth: "150px" }}
@@ -59,9 +55,7 @@ const UpComingWebinars = () => {
             return (
               <tr
                 style={{ height: "50px" }}
-                className={[`whiteBack`, classes.UpComingWebinarsTableRow].join(
-                  " "
-                )}
+                className={[`whiteBack`, classes.menteesListTableRow].join(" ")}
               >
                 <td style={{ fontSize: "12px" }} className="mr-5">
                   <div className="">
@@ -86,31 +80,13 @@ const UpComingWebinars = () => {
                 <td style={{ fontSize: "12px" }} className="mr-5">
                   4 Sep 2020
                 </td>
-                <td style={{ fontSize: "12px" }} className="mr-5">
-                  Zoom Link
-                </td>
                 <td style={{ fontSize: "12px", flex: 3 }}>
-                  <div className="d-flex justify-content-between">
-                    <label
-                      className={[
-                        `mr-2`,
-                        `text-center`,
-                        `noMarginBottom`,
-                        classes.tableRescheduleButton,
-                      ].join(" ")}
-                    >
-                      Re-Schedule
-                    </label>
-                    <label
-                      className={[
-                        `text-center`,
-                        `noMarginBottom`,
-                        classes.tableCancelButton,
-                      ].join(" ")}
-                    >
-                      Cancel
-                    </label>
-                  </div>
+                  <label className={classes.switch}>
+                    <input type="checkbox" />
+                    <span
+                      className={[classes.slider, classes.round].join(" ")}
+                    ></span>
+                  </label>
                 </td>
               </tr>
             );
@@ -121,4 +97,4 @@ const UpComingWebinars = () => {
   );
 };
 
-export default UpComingWebinars;
+export default MenteesTable;

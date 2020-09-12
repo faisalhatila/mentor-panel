@@ -1,46 +1,52 @@
 import React from "react";
-import classes from "./Invoices.module.css";
-const Invoices = () => {
+import classes from "./ServicesTable.module.css";
+const ServicesTable = () => {
   return (
     <div>
       <h4 style={{ fontSize: "16px" }} className="whiteBack p-3">
-        Invoices
+        Services Request
       </h4>
-      <table className={classes.UpComingWebinarsTable}>
+      <table className={classes.servicesTable}>
         <thead>
           <tr className="">
             <td
-              style={{ fontSize: "11px", minWidth: "180px" }}
+              style={{ fontSize: "11px", minWidth: "150px" }}
               className="pt-2 pb-3"
             >
-              Invoices
+              Mentee Name
             </td>
             <td
-              style={{ fontSize: "11px", minWidth: "180px" }}
+              style={{ fontSize: "11px", minWidth: "150px" }}
               className="pt-2 pb-3"
             >
-              ID
+              Course
             </td>
             <td
-              style={{ fontSize: "11px", minWidth: "180px" }}
+              style={{ fontSize: "11px", minWidth: "150px" }}
               className="pt-2 pb-3"
             >
-              Mentee
+              Category
             </td>
             <td
-              style={{ fontSize: "11px", minWidth: "180px" }}
+              style={{ fontSize: "11px", minWidth: "150px" }}
               className="pt-2 pb-3"
             >
               Amount
             </td>
             <td
-              style={{ fontSize: "11px", minWidth: "180px" }}
+              style={{ fontSize: "11px", minWidth: "150px" }}
               className="pt-2 pb-3"
             >
-              Status
+              Time Frame
             </td>
             <td
-              style={{ fontSize: "11px", minWidth: "180px" }}
+              style={{ fontSize: "11px", minWidth: "150px" }}
+              className="pt-2 pb-3"
+            >
+              Time
+            </td>
+            <td
+              style={{ fontSize: "11px", minWidth: "150px" }}
               className="pt-2 pb-3"
             >
               Action
@@ -52,14 +58,8 @@ const Invoices = () => {
             return (
               <tr
                 style={{ height: "50px" }}
-                className={[`whiteBack`, classes.invoicesTableRow].join(" ")}
+                className={[`whiteBack`, classes.servicessTableRow].join(" ")}
               >
-                <td style={{ fontSize: "12px" }} className="mr-5">
-                  INVoo1
-                </td>
-                <td style={{ fontSize: "12px" }} className="mr-5">
-                  #01
-                </td>
                 <td style={{ fontSize: "12px" }} className="mr-5">
                   <div className="">
                     <img
@@ -72,12 +72,26 @@ const Invoices = () => {
                   </div>
                 </td>
                 <td style={{ fontSize: "12px" }} className="mr-5">
+                  Mechanical
+                </td>
+                <td style={{ fontSize: "12px" }} className="mr-5">
+                  Enginerring
+                </td>
+                <td style={{ fontSize: "12px" }} className="mr-5">
                   $1000.00
                 </td>
                 <td style={{ fontSize: "12px" }} className="mr-5">
-                  <i
-                    class={[`fas`, `fa-check`, classes.checkMark].join(" ")}
-                  ></i>
+                  4 Sep 2020
+                </td>
+                <td style={{ fontSize: "12px" }} className="mr-5">
+                  <label
+                    className={[
+                      `noMarginBottom`,
+                      classes.servicesScheduleButton,
+                    ].join(" ")}
+                  >
+                    Schedule
+                  </label>
                 </td>
                 <td style={{ fontSize: "12px", flex: 3 }}>
                   <div className="d-flex justify-content-between">
@@ -89,7 +103,7 @@ const Invoices = () => {
                         classes.tableRescheduleButton,
                       ].join(" ")}
                     >
-                      Print
+                      Accept
                     </label>
                     <label
                       className={[
@@ -98,7 +112,7 @@ const Invoices = () => {
                         classes.tableCancelButton,
                       ].join(" ")}
                     >
-                      Delete
+                      Cancel
                     </label>
                   </div>
                 </td>
@@ -111,4 +125,4 @@ const Invoices = () => {
   );
 };
 
-export default Invoices;
+export default ServicesTable;

@@ -15,6 +15,9 @@
   border-radius: 3px;
   min-width: 100px;
 }
+.UpComingWebinarsTableRow {
+  border-bottom: solid 1px #ccc;
+}
 .UpComingWebinarsTableRow:hover {
   background-color: #f9e6e6;
 }
