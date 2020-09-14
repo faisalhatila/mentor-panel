@@ -125,7 +125,7 @@ export default class Navbar extends Component {
                         </div>
                         <img
                           alt="avatar"
-                          src="assets/img/adminAvatar.jpg"
+                          src="assets/img/adminAvatar1.png"
                           className={`ml-3 mr-3 ${classes.userAvatar}`}
                         />
                         <i class="fas fa-sort-down whiteFont"></i>
