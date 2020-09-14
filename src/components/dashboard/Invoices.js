@@ -10,37 +10,37 @@ const Invoices = () => {
         <thead>
           <tr className="">
             <td
-              style={{ fontSize: "11px", minWidth: "180px" }}
+              style={{ fontSize: "11px", minWidth: "100px" }}
               className="pt-2 pb-3"
             >
               Invoices
             </td>
             <td
-              style={{ fontSize: "11px", minWidth: "180px" }}
+              style={{ fontSize: "11px", minWidth: "100px" }}
               className="pt-2 pb-3"
             >
               ID
             </td>
             <td
-              style={{ fontSize: "11px", minWidth: "180px" }}
+              style={{ fontSize: "11px", minWidth: "150px" }}
               className="pt-2 pb-3"
             >
               Mentee
             </td>
             <td
-              style={{ fontSize: "11px", minWidth: "180px" }}
+              style={{ fontSize: "11px", minWidth: "100px" }}
               className="pt-2 pb-3"
             >
               Amount
             </td>
             <td
-              style={{ fontSize: "11px", minWidth: "180px" }}
+              style={{ fontSize: "11px", minWidth: "100px" }}
               className="pt-2 pb-3"
             >
               Status
             </td>
             <td
-              style={{ fontSize: "11px", minWidth: "180px" }}
+              style={{ fontSize: "11px", minWidth: "100px" }}
               className="pt-2 pb-3"
             >
               Action

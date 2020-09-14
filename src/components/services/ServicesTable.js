@@ -16,37 +16,37 @@ const ServicesTable = () => {
               Mentee Name
             </td>
             <td
-              style={{ fontSize: "11px", minWidth: "150px" }}
+              style={{ fontSize: "11px", minWidth: "100px" }}
               className="pt-2 pb-3"
             >
               Course
             </td>
             <td
-              style={{ fontSize: "11px", minWidth: "150px" }}
+              style={{ fontSize: "11px", minWidth: "100px" }}
               className="pt-2 pb-3"
             >
               Category
             </td>
             <td
-              style={{ fontSize: "11px", minWidth: "150px" }}
+              style={{ fontSize: "11px", minWidth: "100px" }}
               className="pt-2 pb-3"
             >
               Amount
             </td>
             <td
-              style={{ fontSize: "11px", minWidth: "150px" }}
+              style={{ fontSize: "11px", minWidth: "100px" }}
               className="pt-2 pb-3"
             >
               Time Frame
             </td>
             <td
-              style={{ fontSize: "11px", minWidth: "150px" }}
+              style={{ fontSize: "11px", minWidth: "100px" }}
               className="pt-2 pb-3"
             >
               Time
             </td>
             <td
-              style={{ fontSize: "11px", minWidth: "150px" }}
+              style={{ fontSize: "11px", minWidth: "100px" }}
               className="pt-2 pb-3"
             >
               Action
