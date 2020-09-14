@@ -11,6 +11,7 @@ import Services from "../containers/Services";
 import Report from "../containers/Report";
 import ActivityLog from "../containers/ActivityLog";
 import Settings from "../containers/Settings";
+import AddActivity from "../containers/AddActivity";
 const Router = (props) => {
   return (
     <Switch>
@@ -20,6 +21,7 @@ const Router = (props) => {
       <Route exact path="/services" component={Services} />
       <Route exact path="/report" component={Report} />
       <Route exact path="/activity-log" component={ActivityLog} />
+      <Route exact path="/add-activity-log" component={AddActivity} />
       <Route exact path="/settings" component={Settings} />
       <PvtRoute exact path="/login" component={LoginContainer} />
       <PvtRoute exact path="/login/:id" component={LoginContainer} />

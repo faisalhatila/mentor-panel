@@ -6,7 +6,7 @@ const PaymentGateway = () => {
   const [apiKey, setApiKey] = useState("");
   const [restKey, setRestKey] = useState("");
   return (
-    <div className={[classes.generalSettingsMainDiv].join(" ")}>
+    <div className={[classes.paymentGatewayMainDiv].join(" ")}>
       <div className={[`d-flex`, classes.formTitleDiv].join(" ")}>
         <label className={[`noMarginBottom`, classes.formTitle].join(" ")}>
           General

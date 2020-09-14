@@ -19,19 +19,19 @@
 .settingsFormLabel {
   font-size: 11px;
 }
+.formInput:focus {
+  outline: none !important;
+}
 .formInput {
   border-radius: 25px;
   border: none;
   box-shadow: 0px 1px 5px 1px #ccc;
   padding: 5px 10px;
 }
-.formInput:focus {
-  outline: none !important;
-}
 .chooseFileLabel {
   background-color: #d9d8ea;
   min-width: 150px;
-  padding: 5px;
+  padding: 9px 0;
   border-radius: 20px;
 }
 .paymentGatewayActionButton {
@@ -39,4 +39,17 @@
   padding: 12px 0;
   background-color: #d9d8ea;
   border-radius: 25px;
+}
+.descriptionTextArea {
+  border-radius: 25px;
+  border: none;
+  box-shadow: 0px 1px 5px 1px #ccc;
+  padding: 5px 10px;
+  resize: none;
+}
+.activityLogSaveButton {
+  padding: 5px 45px;
+  background-color: #e63c49;
+  color: #fff;
+  border-radius: 5px;
 }

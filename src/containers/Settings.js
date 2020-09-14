@@ -22,12 +22,12 @@ const Settings = () => {
               Dashboard / Setting / General Settings
             </h3>
           </div>
-          {/* <div className="mt-4">
-            <GeneraLSettingsForm />
-          </div> */}
           <div className="mt-4">
-            <PaymentGateway />
+            <GeneraLSettingsForm />
           </div>
+          {/* <div className="mt-4">
+            <PaymentGateway />
+          </div> */}
 
           {/* <div className="row justify-content-between mt-4">
             {[...Array(3)].map((i) => {
