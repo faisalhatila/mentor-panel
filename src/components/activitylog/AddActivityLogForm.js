@@ -7,7 +7,7 @@ const AddActivityLogForm = () => {
   const [author, setAuthor] = useState("");
   const [description, setDescription] = useState("");
   return (
-    <div className={[classes.paymentGatewayMainDiv].join(" ")}>
+    <div className={[classes.activityLogFormMainDiv].join(" ")}>
       <div className={[`d-flex`, classes.formTitleDiv].join(" ")}>
         <label className={[`noMarginBottom`, classes.formTitle].join(" ")}>
           Edit Post
@@ -94,7 +94,7 @@ const AddActivityLogForm = () => {
               `noMarginBottom`,
               `text-center`,
               `mr-2`,
-              classes.paymentGatewayActionButton,
+              classes.activityLogActionButton,
             ].join(" ")}
           >
             Save Changes
