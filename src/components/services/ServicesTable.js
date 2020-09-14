@@ -16,13 +16,13 @@ const ServicesTable = () => {
               Mentee Name
             </td>
             <td
-              style={{ fontSize: "11px", minWidth: "100px" }}
+              style={{ fontSize: "11px", minWidth: "130px" }}
               className="pt-2 pb-3"
             >
               Course
             </td>
             <td
-              style={{ fontSize: "11px", minWidth: "100px" }}
+              style={{ fontSize: "11px", minWidth: "130px" }}
               className="pt-2 pb-3"
             >
               Category
@@ -96,6 +96,7 @@ const ServicesTable = () => {
                 <td style={{ fontSize: "12px", flex: 3 }}>
                   <div className="d-flex justify-content-between">
                     <label
+                      style={{ flex: 10 }}
                       className={[
                         `mr-2`,
                         `text-center`,
@@ -105,7 +106,9 @@ const ServicesTable = () => {
                     >
                       Accept
                     </label>
+                    <span className={{ flex: 1 }}></span>
                     <label
+                      style={{ flex: 10 }}
                       className={[
                         `text-center`,
                         `noMarginBottom`,

@@ -17,13 +17,13 @@ const UpComingWebinars = () => {
               Mentee Name
             </td>
             <td
-              style={{ fontSize: "11px", minWidth: "100px" }}
+              style={{ fontSize: "11px", minWidth: "150px" }}
               className="pt-2 pb-3"
             >
               Course
             </td>
             <td
-              style={{ fontSize: "11px", minWidth: "100px" }}
+              style={{ fontSize: "11px", minWidth: "150px" }}
               className="pt-2 pb-3"
             >
               Category
@@ -98,15 +98,18 @@ const UpComingWebinars = () => {
                         `noMarginBottom`,
                         classes.tableRescheduleButton,
                       ].join(" ")}
+                      style={{ flex: 50 }}
                     >
                       Re-Schedule
                     </label>
+                    <span style={{ flex: 1 }}></span>
                     <label
                       className={[
                         `text-center`,
                         `noMarginBottom`,
                         classes.tableCancelButton,
                       ].join(" ")}
+                      style={{ flex: 50 }}
                     >
                       Cancel
                     </label>

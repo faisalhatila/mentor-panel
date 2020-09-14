@@ -10,31 +10,31 @@ const Invoices = () => {
         <thead>
           <tr className="">
             <td
-              style={{ fontSize: "11px", minWidth: "100px" }}
+              style={{ fontSize: "11px", minWidth: "150px" }}
               className="pt-2 pb-3"
             >
               Invoices
             </td>
             <td
-              style={{ fontSize: "11px", minWidth: "100px" }}
+              style={{ fontSize: "11px", minWidth: "150px" }}
               className="pt-2 pb-3"
             >
               ID
             </td>
             <td
-              style={{ fontSize: "11px", minWidth: "150px" }}
+              style={{ fontSize: "11px", minWidth: "170px" }}
               className="pt-2 pb-3"
             >
               Mentee
             </td>
             <td
-              style={{ fontSize: "11px", minWidth: "100px" }}
+              style={{ fontSize: "11px", minWidth: "140px" }}
               className="pt-2 pb-3"
             >
               Amount
             </td>
             <td
-              style={{ fontSize: "11px", minWidth: "100px" }}
+              style={{ fontSize: "11px", minWidth: "140px" }}
               className="pt-2 pb-3"
             >
               Status
@@ -88,15 +88,18 @@ const Invoices = () => {
                         `noMarginBottom`,
                         classes.tableRescheduleButton,
                       ].join(" ")}
+                      style={{ flex: 80 }}
                     >
                       Print
                     </label>
+                    <span style={{ flex: 1 }}></span>
                     <label
                       className={[
                         `text-center`,
                         `noMarginBottom`,
                         classes.tableCancelButton,
                       ].join(" ")}
+                      style={{ flex: 80 }}
                     >
                       Delete
                     </label>

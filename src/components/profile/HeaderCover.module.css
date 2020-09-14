@@ -15,6 +15,10 @@
   max-width: 230px;
   border-radius: 50%;
 }
+.profileTitle {
+  font-weight: 600;
+  color: #000;
+}
 .headerCoverAboutButton {
   min-width: 150px;
   padding: 8px 0;

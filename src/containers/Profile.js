@@ -4,6 +4,7 @@ import TopCard from "../components/dashboard/TopCard";
 import UpComingWebinars from "../components/dashboard/UpComingWebinars";
 import LeftMenu from "../components/LeftMenu";
 import HeaderCover from "../components/profile/HeaderCover";
+import ProfileBody from "../components/profile/ProfileBody";
 
 const Profile = (props) => {
   return (
@@ -13,7 +14,12 @@ const Profile = (props) => {
       </div>
       <div className="col" style={{ flex: 3 }}>
         <div className="mt-5">
-          <HeaderCover />
+          <div className="mt-4">
+            <HeaderCover />
+          </div>
+          <div className="mt-4">
+            <ProfileBody />
+          </div>
           {/* <h3 className="noMarginBottom">Welcome Mentor</h3>
           <h3 className="noMarginBottom">Dashboard</h3>
           <div className="row justify-content-between mt-4">

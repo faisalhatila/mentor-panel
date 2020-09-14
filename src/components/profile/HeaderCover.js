@@ -28,7 +28,11 @@ const HeaderCover = () => {
             src="assets/img/profile/avatar.jpg"
             className={classes.avatar}
           />
-          <h2 className={[`noMarginBottom`, classes.profileTitle].join(" ")}>
+          <h2
+            className={[`noMarginBottom`, `mt-2`, classes.profileTitle].join(
+              " "
+            )}
+          >
             Chris Hemsworth
           </h2>
           <label className={[`noMarginBottom`, classes.profileEmail].join(" ")}>

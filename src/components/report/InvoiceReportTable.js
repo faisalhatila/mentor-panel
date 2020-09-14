@@ -90,15 +90,18 @@ const InvoiceReportTable = () => {
                         `noMarginBottom`,
                         classes.tableRescheduleButton,
                       ].join(" ")}
+                      style={{ flex: 80 }}
                     >
                       Re-Schedule
                     </label>
+                    <span style={{ flex: 1 }}></span>
                     <label
                       className={[
                         `text-center`,
                         `noMarginBottom`,
                         classes.tableCancelButton,
                       ].join(" ")}
+                      style={{ flex: 80 }}
                     >
                       Cancel
                     </label>
