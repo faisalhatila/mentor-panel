@@ -5,6 +5,7 @@ import UpComingWebinars from "../components/dashboard/UpComingWebinars";
 import LeftMenu from "../components/LeftMenu";
 import GeneraLSettingsForm from "../components/settings/GeneraLSettingsForm";
 import PaymentGateway from "../components/settings/PaymentGateway";
+import SocialLogin from "../components/settings/SocialLogin";
 import TabNav from "../components/settings/TabNav";
 
 const Settings = () => {
@@ -22,13 +23,16 @@ const Settings = () => {
               Dashboard / Setting / General Settings
             </h3>
           </div>
-          <div className="mt-4">
+          {/* <div className="mt-4">
             <GeneraLSettingsForm />
-          </div>
+          </div> */}
           {/* <div className="mt-4">
             <PaymentGateway />
           </div> */}
 
+          <div className="mt-4">
+            <SocialLogin />
+          </div>
           {/* <div className="row justify-content-between mt-4">
             {[...Array(3)].map((i) => {
               return <TopCard />;

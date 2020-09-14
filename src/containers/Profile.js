@@ -3,6 +3,7 @@ import Invoices from "../components/dashboard/Invoices";
 import TopCard from "../components/dashboard/TopCard";
 import UpComingWebinars from "../components/dashboard/UpComingWebinars";
 import LeftMenu from "../components/LeftMenu";
+import HeaderCover from "../components/profile/HeaderCover";
 
 const Profile = (props) => {
   return (
@@ -12,19 +13,20 @@ const Profile = (props) => {
       </div>
       <div className="col" style={{ flex: 3 }}>
         <div className="mt-5">
-          <h3 className="noMarginBottom">Welcome Mentor</h3>
+          <HeaderCover />
+          {/* <h3 className="noMarginBottom">Welcome Mentor</h3>
           <h3 className="noMarginBottom">Dashboard</h3>
           <div className="row justify-content-between mt-4">
             {[...Array(3)].map((i) => {
               return <TopCard />;
             })}
-          </div>
-          <div className="mt-4">
+          </div> */}
+          {/* <div className="mt-4">
             <UpComingWebinars />
-          </div>
-          <div className="mt-4">
+          </div> */}
+          {/* <div className="mt-4">
             <Invoices />
-          </div>
+          </div> */}
         </div>
       </div>
     </div>
