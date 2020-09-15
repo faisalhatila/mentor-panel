@@ -1,10 +1,11 @@
 import React from "react";
 import classes from "./TabNav.module.css";
 
-const TabNav = () => {
+const TabNav = (props) => {
+  const tabs = ["General Settings", "Payment Gateway", "Social Login"];
   return (
     <div className={[`d-flex`, classes.tabDiv].join(" ")}>
-      <label
+      {/* <label
         className={[
           `noMarginBottom`,
           classes.settingsTab,
@@ -18,7 +19,20 @@ const TabNav = () => {
       </label>
       <label className={[`noMarginBottom`, classes.settingsTab].join(" ")}>
         Social Login
-      </label>
+      </label> */}
+      {tabs.map((tab, i) => {
+        return (
+          <label
+            key={i}
+            className={`noMarginBottom ${classes.settingsTab} ${
+              props.activeSettingTab === tab ? classes.activeTab : null
+            }`}
+            onClick={() => props.handleActiveSettingTab(tab)}
+          >
+            {tab}
+          </label>
+        );
+      })}
     </div>
   );
 };

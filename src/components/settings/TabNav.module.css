@@ -4,6 +4,7 @@
 .settingsTab {
   font-size: 27px;
   padding: 0px 10px;
+  cursor: pointer;
 }
 .activeTab {
   background-color: #363090;
