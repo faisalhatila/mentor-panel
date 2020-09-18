@@ -12,12 +12,15 @@ import Report from "../containers/Report";
 import ActivityLog from "../containers/ActivityLog";
 import Settings from "../containers/Settings";
 import AddActivity from "../containers/AddActivity";
+import Messages from "../containers/Messages";
 const Router = (props) => {
   return (
     <Switch>
       <Route exact path="/" component={HomeContainer} />
       <Route exact path="/profile" component={Profile} />
       <Route exact path="/mentees-list" component={MenteesList} />
+      <Route exact path="/messages" component={Messages} />
+      {/* <Route exact path="/messages" component={HomeContainer} /> */}
       <Route exact path="/services" component={Services} />
       <Route exact path="/report" component={Report} />
       <Route exact path="/activity-log" component={ActivityLog} />

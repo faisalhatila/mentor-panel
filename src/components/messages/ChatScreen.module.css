@@ -1,0 +1,29 @@
+.userAvatar {
+  max-width: 30px;
+}
+.userMessage,
+.senderMessage {
+  background-color: #ebf2f7;
+  padding: 5px 8px;
+  margin-top: 4px;
+}
+.sendMessageDiv {
+  border-bottom: solid 1px #ccc;
+  /* padding-bottom: 2px; */
+}
+.messageBoxField {
+  flex: 1;
+  border: none;
+  padding: 4px 8px;
+}
+.messageBoxField:focus {
+  outline: none !important;
+}
+
+.sendButton {
+  border: none;
+  background-color: transparent;
+}
+.sendButton:focus {
+  outline: none !important;
+}

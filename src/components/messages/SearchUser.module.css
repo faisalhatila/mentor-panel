@@ -1,0 +1,11 @@
+.searchUserMainDiv {
+  border-bottom: solid 1px #ccc;
+  padding: 4px 8px;
+}
+.searchField {
+  flex: 1;
+  border: none;
+}
+.searchField:focus {
+  outline: none;
+}
